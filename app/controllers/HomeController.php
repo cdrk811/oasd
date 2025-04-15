@@ -2,13 +2,16 @@
 
 class HomeController extends Controller
 {
-    public function index()
-    {
-        $data = [
-            'title' => 'Welcome to My MVC App',
-            'message' => 'Hello from the HomeController!'
-        ];
+    public function index() {
+        ob_start();
+        include __DIR__ . '/../views/home/index.php';
+        $content = ob_get_clean();
 
-        $this->view('home/index', $data);
+        $this->renderLayout('layouts/main.php', ['content' => $content]);
+    }
+
+    private function renderLayout($layout, $data = []) {
+        extract($data);
+        include __DIR__ . '/../views/' . $layout;
     }
 }
