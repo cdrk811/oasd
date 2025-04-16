@@ -15,7 +15,6 @@
     </nav>
 
     <div class="text-box">
-        <h1>Office of Athletics</h1>
-        <h1>and Sports Development</h1>
+        <h1 class="text-7xl font-normal">Office of Athletics <br> and Sports Development</h1>
     </div>
 </section>

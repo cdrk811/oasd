@@ -88,7 +88,7 @@ nav img {
     color: #fff;
     text-decoration: none;
     font-size: 13px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 
     /*border*/
     /*display: inline-block;*/
@@ -127,10 +127,10 @@ nav img {
     transform: translate(-50%, -50%);
 }
 
-.text-box h1 {
-    font-size: 80px;
-    font-weight: normal;
-}
+/*.text-box h1 {*/
+/*    font-size: 80px;*/
+/*    font-weight: normal;*/
+/*}*/
 
 nav .fa-solid {
     display: none;
@@ -142,8 +142,8 @@ nav .bar-white {
 
 .mission-vision {
     width: 70%;
-    margin: auto;
-    padding: 100px 0 100px 0;
+    margin: auto !important;
+    padding: 100px 0 100px 0 !important;
     display: flex;
     flex-wrap: wrap;
 }

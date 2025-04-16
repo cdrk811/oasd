@@ -1,11 +1,11 @@
 <!-- Mission and Vision -->
 <section class="mission-vision">
     <div class="mission-and-vision">
-        <img src="/assets/images/up-fighting-maroons-full.png" />
+        <img src="/assets/images/up-fighting-maroons-full.png" class="inline" />
     </div>
     <div class="mission-and-vision">
         <div class="mission">
-            <h1>OUR MISSION</h1>
+            <h1 class="font-semibold">OUR MISSION</h1>
             <p>
                 To provide an athlete-centered and evidence-based sports
                 program supported by topnotch coaches, efficient and
@@ -14,7 +14,7 @@
             </p>
         </div>
         <div class="vision">
-            <h1>OUR VISION</h1>
+            <h1 class="font-semibold">OUR VISION</h1>
             <p>
                 To be the benchmark in collegiate varsity sports program that
                 will produce well-rounded champion student athletes who are
@@ -29,8 +29,8 @@
 <section class="up-oasd">
     <h1> What is UP OASD</h1>
     <div class="oasd-images">
-        <img src="/assets/images/oasd-inforgraphics-for-fb-copy_orig.jpg" />
-        <img src="/assets/images/facebook-cover-photo_orig.png" />
+        <img src="/assets/images/oasd-inforgraphics-for-fb-copy_orig.jpg" class="inline" />
+        <img src="/assets/images/facebook-cover-photo_orig.png" class="inline" />
     </div>
 
     <!-- UP Official -->
